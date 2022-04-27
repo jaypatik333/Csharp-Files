@@ -1,0 +1,21 @@
+# Program to demonstrate function definition and function call in c#.net.
+
+using System:
+namespace CSharp_Shell
+{
+  public class Program 
+    {  
+     void print()
+    	{
+    	Console.WriteLine("jayesh");
+    	}
+        public static void Main() 
+        {
+        	Program p=new Program();
+           p.print();
+           Console.ReadLine();
+        } 
+   }
+  }
+Output:-
+Jayesh
