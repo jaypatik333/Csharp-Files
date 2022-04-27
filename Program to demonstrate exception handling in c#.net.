@@ -1,0 +1,20 @@
+using System;
+class program
+{
+static void Main(string[] args)
+            {
+               
+                Console.WriteLine(“Enter First Number “);
+                Int n1 = int.Parse(Console.ReadLine());
+                Console.WriteLine(“Enter Second Number “);
+                Int n2 = int.Parse(Console.ReadLine());
+                Try
+                {
+                    Int result = n1 / n2;
+                }
+                Catch (DivideByZeroException e)
+                {
+                    Console.WriteLine(“integer divide by 0 exception”);
+                    Console.WriteLine(e.Message);
+                }
+}
