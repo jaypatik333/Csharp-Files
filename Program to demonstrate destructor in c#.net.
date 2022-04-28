@@ -1,0 +1,33 @@
+using System;
+
+Class Program
+
+{
+
+    Program()
+
+    {
+
+        Console.WriteLine(“Constructor called”);
+
+    }
+
+    ~Program()
+
+    {
+
+        Console.WriteLine(“Destructor invoke”);
+
+    }
+
+    Public static void Main()
+
+    {
+
+        Program p = new Program();
+
+        Console.ReadLine();
+
+    }
+
+}
