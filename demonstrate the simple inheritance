@@ -1,0 +1,43 @@
+using System;
+
+class student
+
+{
+
+        public void baseclass()
+
+        {
+
+            Console.WriteLine("Base class");
+
+        }
+
+     }
+
+class program:student
+
+{
+
+        public void deriveclass()
+
+        {
+
+            Console.WriteLine("Derived class ");
+
+        }
+
+        static void Main(string[] args)
+
+        {
+
+            Program p = new Program();
+
+            p.baseclass();
+
+            p.deriveclass();
+
+            Console.ReadLine();
+
+}
+
+}
